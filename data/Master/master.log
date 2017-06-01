@@ -1,0 +1,3434 @@
+[02/05/2017 16:44] ERROR owner load 73: Command ping is already registered.
+Traceback (most recent call last):
+  File "C:\Users\libert\Desktop\bad bot\Red-DiscordBot\cogs\owner.py", line 64, in load
+    self._load_cog(module)
+  File "C:\Users\libert\Desktop\bad bot\Red-DiscordBot\cogs\owner.py", line 947, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "lib\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\libert\Desktop\bad bot\Red-DiscordBot\cogs\pingtime.py", line 34, in setup
+    bot.add_cog(n)
+  File "lib\discord\ext\commands\bot.py", line 655, in add_cog
+    self.add_command(member)
+  File "lib\discord\ext\commands\core.py", line 487, in add_command
+    raise discord.ClientException('Command {0.name} is already registered.'.format(command))
+discord.errors.ClientException: Command ping is already registered.
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:08] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:09] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:09] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:09] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:09] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:09] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:09] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:10] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:13] ERROR Master <module> 613: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 593, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 563, in main
+    check_folders()
+NameError: name 'check_folders' is not defined
+[20/05/2017 16:13] ERROR Master <module> 613: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 593, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 563, in main
+    check_folders()
+NameError: name 'check_folders' is not defined
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:32] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:32] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:32] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:32] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:32] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:32] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:33] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:46] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 16:46] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 568, in main
+    check_folders()
+  File "Master.py", line 395, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:13] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:14] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:14] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:14] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:14] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:14] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:15] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    check_folders()
+  File "Master.py", line 396, in check_folders
+    if not os.path.exists(folders):
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:15] ERROR Master <module> 619: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 599, in <module>
+    except discord.LoginFailure:
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 569, in main
+    if not bot.settings.no_prompt:
+  File "Master.py", line 396, in check_folders
+    print("Creating " + folder + " folder...")
+  File "C:\Program Files (x86)\Python36-32\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:15] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:16] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:17] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('module.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:18] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'module'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:19] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:20] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:21] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'owner'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:22] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:25] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:26] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:27] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:28] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:29] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:30] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:31] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
+[20/05/2017 17:34] ERROR Master <module> 618: Fatal exception, attempting graceful logout
+Traceback (most recent call last):
+  File "Master.py", line 598, in <module>
+    loop.run_until_complete(main(bot))
+  File "C:\Program Files (x86)\Python36-32\lib\asyncio\base_events.py", line 466, in run_until_complete
+    return future.result()
+  File "Master.py", line 571, in main
+    load_modules(bot)
+  File "Master.py", line 529, in load_modules
+    bot.load_extension('modules.owner')
+  File "lib\discord\ext\commands\bot.py", line 732, in load_extension
+    lib = importlib.import_module(name)
+  File "C:\Program Files (x86)\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 936, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 205, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 978, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 948, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'modules'
