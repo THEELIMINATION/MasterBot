@@ -24,9 +24,9 @@ from collections import Counter
 from io import TextIOWrapper
 
 #
-# Bugs bitch
+# 
 #
-#   red  load        module     .
+#         
 #
 #
 #
