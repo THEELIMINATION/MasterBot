@@ -31,7 +31,7 @@ from io import TextIOWrapper
 #
 #
 #
-#                 https://github.com/Rapptz/RoboDanny/
+#             
 #
 
 description = "MasterBot - A super duper awesome Discord bot by Horizon based off red-discordbot and discord.py using XK2 as a base."
